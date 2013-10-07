@@ -8,21 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0614C53A1803054000069623 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0614C5391803054000069623 /* Cocoa.framework */; };
-		0614C5441803054000069623 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0614C5421803054000069623 /* InfoPlist.strings */; };
-		0614C5461803054000069623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614C5451803054000069623 /* main.m */; };
-		0614C54A1803054000069623 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0614C5481803054000069623 /* Credits.rtf */; };
-		0614C54D1803054000069623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614C54C1803054000069623 /* AppDelegate.m */; };
-		0614C5501803054000069623 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0614C54E1803054000069623 /* MainMenu.xib */; };
-		0614C558180305CD00069623 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614C557180305CD00069623 /* MyWindow.m */; };
-		0614C5A8180307E700069623 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0614C55B180307E700069623 /* README */; };
-		0614C5A9180307E700069623 /* INSTALL in Resources */ = {isa = PBXBuildFile; fileRef = 0614C5A0180307E700069623 /* INSTALL */; };
-		0614C5AA180307E700069623 /* libchilkatCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0614C5A2180307E700069623 /* libchilkatCocoa.a */; };
-		0614C5AB180307E700069623 /* libchilkatCocoaDyn.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0614C5A3180307E700069623 /* libchilkatCocoaDyn.dylib */; };
-		0614C5AC180307E700069623 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0614C5A4180307E700069623 /* LICENSE */; };
-		0614C5AD180307E700069623 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0614C5A5180307E700069623 /* README */; };
-		0614C5AE180307E700069623 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0614C5A7180307E700069623 /* README */; };
-		0614C5B1180307FA00069623 /* Encrypter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0614C5B0180307FA00069623 /* Encrypter.mm */; };
-		0614C5B418030C6800069623 /* empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0614C5B218030C6800069623 /* empty.cpp */; };
+		0614C61A1803146700069623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614C5BA1803146700069623 /* AppDelegate.m */; };
+		0614C61B1803146700069623 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0614C5BD1803146700069623 /* README */; };
+		0614C61C1803146700069623 /* INSTALL in Resources */ = {isa = PBXBuildFile; fileRef = 0614C6021803146700069623 /* INSTALL */; };
+		0614C61D1803146700069623 /* libchilkatCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0614C6041803146700069623 /* libchilkatCocoa.a */; };
+		0614C61E1803146700069623 /* libchilkatCocoaDyn.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0614C6051803146700069623 /* libchilkatCocoaDyn.dylib */; };
+		0614C61F1803146700069623 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0614C6061803146700069623 /* LICENSE */; };
+		0614C6201803146700069623 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0614C6071803146700069623 /* README */; };
+		0614C6211803146700069623 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0614C6091803146700069623 /* README */; };
+		0614C6221803146700069623 /* empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0614C60B1803146700069623 /* empty.cpp */; };
+		0614C6231803146700069623 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0614C60D1803146700069623 /* Credits.rtf */; };
+		0614C6241803146700069623 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0614C60F1803146700069623 /* InfoPlist.strings */; };
+		0614C6251803146700069623 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0614C6111803146700069623 /* MainMenu.xib */; };
+		0614C6261803146700069623 /* Encrypter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0614C6141803146700069623 /* Encrypter.mm */; };
+		0614C6271803146700069623 /* Encryption-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0614C6151803146700069623 /* Encryption-Info.plist */; };
+		0614C6281803146700069623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614C6171803146700069623 /* main.m */; };
+		0614C6291803146700069623 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614C6191803146700069623 /* MyWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,95 +32,95 @@
 		0614C53C1803054000069623 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0614C53D1803054000069623 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0614C53E1803054000069623 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0614C5411803054000069623 /* Encryption-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Encryption-Info.plist"; sourceTree = "<group>"; };
-		0614C5431803054000069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0614C5451803054000069623 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0614C5471803054000069623 /* Encryption-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Encryption-Prefix.pch"; sourceTree = "<group>"; };
-		0614C5491803054000069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0614C54B1803054000069623 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0614C54C1803054000069623 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0614C54F1803054000069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		0614C556180305CD00069623 /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
-		0614C557180305CD00069623 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
-		0614C55B180307E700069623 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		0614C55D180307E700069623 /* CkoAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAtom.h; sourceTree = "<group>"; };
-		0614C55E180307E700069623 /* CkoBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoBounce.h; sourceTree = "<group>"; };
-		0614C55F180307E700069623 /* CkoBz2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoBz2.h; sourceTree = "<group>"; };
-		0614C560180307E700069623 /* CkoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCache.h; sourceTree = "<group>"; };
-		0614C561180307E700069623 /* CkoCert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCert.h; sourceTree = "<group>"; };
-		0614C562180307E700069623 /* CkoCertStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCertStore.h; sourceTree = "<group>"; };
-		0614C563180307E700069623 /* CkoCgi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCgi.h; sourceTree = "<group>"; };
-		0614C564180307E700069623 /* CkoCharset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCharset.h; sourceTree = "<group>"; };
-		0614C565180307E700069623 /* CkoCompression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCompression.h; sourceTree = "<group>"; };
-		0614C566180307E700069623 /* CkoCrypt2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCrypt2.h; sourceTree = "<group>"; };
-		0614C567180307E700069623 /* CkoCsv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCsv.h; sourceTree = "<group>"; };
-		0614C568180307E700069623 /* CkoDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDateTime.h; sourceTree = "<group>"; };
-		0614C569180307E700069623 /* CkoDh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDh.h; sourceTree = "<group>"; };
-		0614C56A180307E700069623 /* CkoDirTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDirTree.h; sourceTree = "<group>"; };
-		0614C56B180307E700069623 /* CkoDkim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDkim.h; sourceTree = "<group>"; };
-		0614C56C180307E700069623 /* CkoDsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDsa.h; sourceTree = "<group>"; };
-		0614C56D180307E700069623 /* CkoDtObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDtObj.h; sourceTree = "<group>"; };
-		0614C56E180307E700069623 /* CkoEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoEmail.h; sourceTree = "<group>"; };
-		0614C56F180307E700069623 /* CkoEmailBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoEmailBundle.h; sourceTree = "<group>"; };
-		0614C570180307E700069623 /* CkoFileAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFileAccess.h; sourceTree = "<group>"; };
-		0614C571180307E700069623 /* CkoFtp2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFtp2.h; sourceTree = "<group>"; };
-		0614C572180307E700069623 /* CkoFtp2Progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFtp2Progress.h; sourceTree = "<group>"; };
-		0614C573180307E700069623 /* CkoGzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoGzip.h; sourceTree = "<group>"; };
-		0614C574180307E700069623 /* CkoHtmlToText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHtmlToText.h; sourceTree = "<group>"; };
-		0614C575180307E700069623 /* CkoHtmlToXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHtmlToXml.h; sourceTree = "<group>"; };
-		0614C576180307E700069623 /* CkoHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttp.h; sourceTree = "<group>"; };
-		0614C577180307E700069623 /* CkoHttpProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpProgress.h; sourceTree = "<group>"; };
-		0614C578180307E700069623 /* CkoHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpRequest.h; sourceTree = "<group>"; };
-		0614C579180307E700069623 /* CkoHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpResponse.h; sourceTree = "<group>"; };
-		0614C57A180307E700069623 /* CkoImap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoImap.h; sourceTree = "<group>"; };
-		0614C57B180307E700069623 /* CkoImapProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoImapProgress.h; sourceTree = "<group>"; };
-		0614C57C180307E700069623 /* CkoMailboxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailboxes.h; sourceTree = "<group>"; };
-		0614C57D180307E700069623 /* CkoMailMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailMan.h; sourceTree = "<group>"; };
-		0614C57E180307E700069623 /* CkoMailManProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailManProgress.h; sourceTree = "<group>"; };
-		0614C57F180307E700069623 /* CkoMessageSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMessageSet.h; sourceTree = "<group>"; };
-		0614C580180307E700069623 /* CkoMht.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMht.h; sourceTree = "<group>"; };
-		0614C581180307E700069623 /* CkoMime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMime.h; sourceTree = "<group>"; };
-		0614C582180307E700069623 /* CkoNtlm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoNtlm.h; sourceTree = "<group>"; };
-		0614C583180307E700069623 /* CkoOmaDrm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoOmaDrm.h; sourceTree = "<group>"; };
-		0614C584180307E700069623 /* CkoPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPrivateKey.h; sourceTree = "<group>"; };
-		0614C585180307E700069623 /* CkoProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoProgress.h; sourceTree = "<group>"; };
-		0614C586180307E700069623 /* CkoPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPublicKey.h; sourceTree = "<group>"; };
-		0614C587180307E700069623 /* CkoRsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoRsa.h; sourceTree = "<group>"; };
-		0614C588180307E700069623 /* CkoRss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoRss.h; sourceTree = "<group>"; };
-		0614C589180307E700069623 /* CkoSFtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtp.h; sourceTree = "<group>"; };
-		0614C58A180307E700069623 /* CkoSFtpDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpDir.h; sourceTree = "<group>"; };
-		0614C58B180307E700069623 /* CkoSFtpFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpFile.h; sourceTree = "<group>"; };
-		0614C58C180307E700069623 /* CkoSFtpProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpProgress.h; sourceTree = "<group>"; };
-		0614C58D180307E700069623 /* CkoSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSocket.h; sourceTree = "<group>"; };
-		0614C58E180307E700069623 /* CkoSocketProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSocketProgress.h; sourceTree = "<group>"; };
-		0614C58F180307E700069623 /* CkoSocksProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSocksProxy.h; sourceTree = "<group>"; };
-		0614C590180307E700069623 /* CkoSpider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSpider.h; sourceTree = "<group>"; };
-		0614C591180307E700069623 /* CkoSsh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSsh.h; sourceTree = "<group>"; };
-		0614C592180307E700069623 /* CkoSshKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSshKey.h; sourceTree = "<group>"; };
-		0614C593180307E700069623 /* CkoSshProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSshProgress.h; sourceTree = "<group>"; };
-		0614C594180307E700069623 /* CkoSshTunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSshTunnel.h; sourceTree = "<group>"; };
-		0614C595180307E700069623 /* CkoStringArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoStringArray.h; sourceTree = "<group>"; };
-		0614C596180307E700069623 /* CkoTar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTar.h; sourceTree = "<group>"; };
-		0614C597180307E700069623 /* CkoTarProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTarProgress.h; sourceTree = "<group>"; };
-		0614C598180307E700069623 /* CkoUnixCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoUnixCompress.h; sourceTree = "<group>"; };
-		0614C599180307E700069623 /* CkoUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoUpload.h; sourceTree = "<group>"; };
-		0614C59A180307E700069623 /* CkoXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXml.h; sourceTree = "<group>"; };
-		0614C59B180307E700069623 /* CkoXmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXmp.h; sourceTree = "<group>"; };
-		0614C59C180307E700069623 /* CkoZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZip.h; sourceTree = "<group>"; };
-		0614C59D180307E700069623 /* CkoZipCrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipCrc.h; sourceTree = "<group>"; };
-		0614C59E180307E700069623 /* CkoZipEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipEntry.h; sourceTree = "<group>"; };
-		0614C59F180307E700069623 /* CkoZipProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipProgress.h; sourceTree = "<group>"; };
-		0614C5A0180307E700069623 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
-		0614C5A2180307E700069623 /* libchilkatCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libchilkatCocoa.a; sourceTree = "<group>"; };
-		0614C5A3180307E700069623 /* libchilkatCocoaDyn.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libchilkatCocoaDyn.dylib; sourceTree = "<group>"; };
-		0614C5A4180307E700069623 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0614C5A5180307E700069623 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		0614C5A7180307E700069623 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		0614C5AF180307FA00069623 /* Encrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypter.h; sourceTree = "<group>"; };
-		0614C5B0180307FA00069623 /* Encrypter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Encrypter.mm; sourceTree = "<group>"; };
-		0614C5B218030C6800069623 /* empty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = empty.cpp; sourceTree = "<group>"; };
-		0614C5B318030C6800069623 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
-		0614C5B518030CCA00069623 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0614C5B91803146700069623 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0614C5BA1803146700069623 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0614C5BD1803146700069623 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0614C5BF1803146700069623 /* CkoAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAtom.h; sourceTree = "<group>"; };
+		0614C5C01803146700069623 /* CkoBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoBounce.h; sourceTree = "<group>"; };
+		0614C5C11803146700069623 /* CkoBz2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoBz2.h; sourceTree = "<group>"; };
+		0614C5C21803146700069623 /* CkoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCache.h; sourceTree = "<group>"; };
+		0614C5C31803146700069623 /* CkoCert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCert.h; sourceTree = "<group>"; };
+		0614C5C41803146700069623 /* CkoCertStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCertStore.h; sourceTree = "<group>"; };
+		0614C5C51803146700069623 /* CkoCgi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCgi.h; sourceTree = "<group>"; };
+		0614C5C61803146700069623 /* CkoCharset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCharset.h; sourceTree = "<group>"; };
+		0614C5C71803146700069623 /* CkoCompression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCompression.h; sourceTree = "<group>"; };
+		0614C5C81803146700069623 /* CkoCrypt2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCrypt2.h; sourceTree = "<group>"; };
+		0614C5C91803146700069623 /* CkoCsv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCsv.h; sourceTree = "<group>"; };
+		0614C5CA1803146700069623 /* CkoDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDateTime.h; sourceTree = "<group>"; };
+		0614C5CB1803146700069623 /* CkoDh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDh.h; sourceTree = "<group>"; };
+		0614C5CC1803146700069623 /* CkoDirTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDirTree.h; sourceTree = "<group>"; };
+		0614C5CD1803146700069623 /* CkoDkim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDkim.h; sourceTree = "<group>"; };
+		0614C5CE1803146700069623 /* CkoDsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDsa.h; sourceTree = "<group>"; };
+		0614C5CF1803146700069623 /* CkoDtObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDtObj.h; sourceTree = "<group>"; };
+		0614C5D01803146700069623 /* CkoEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoEmail.h; sourceTree = "<group>"; };
+		0614C5D11803146700069623 /* CkoEmailBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoEmailBundle.h; sourceTree = "<group>"; };
+		0614C5D21803146700069623 /* CkoFileAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFileAccess.h; sourceTree = "<group>"; };
+		0614C5D31803146700069623 /* CkoFtp2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFtp2.h; sourceTree = "<group>"; };
+		0614C5D41803146700069623 /* CkoFtp2Progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFtp2Progress.h; sourceTree = "<group>"; };
+		0614C5D51803146700069623 /* CkoGzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoGzip.h; sourceTree = "<group>"; };
+		0614C5D61803146700069623 /* CkoHtmlToText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHtmlToText.h; sourceTree = "<group>"; };
+		0614C5D71803146700069623 /* CkoHtmlToXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHtmlToXml.h; sourceTree = "<group>"; };
+		0614C5D81803146700069623 /* CkoHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttp.h; sourceTree = "<group>"; };
+		0614C5D91803146700069623 /* CkoHttpProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpProgress.h; sourceTree = "<group>"; };
+		0614C5DA1803146700069623 /* CkoHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpRequest.h; sourceTree = "<group>"; };
+		0614C5DB1803146700069623 /* CkoHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpResponse.h; sourceTree = "<group>"; };
+		0614C5DC1803146700069623 /* CkoImap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoImap.h; sourceTree = "<group>"; };
+		0614C5DD1803146700069623 /* CkoImapProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoImapProgress.h; sourceTree = "<group>"; };
+		0614C5DE1803146700069623 /* CkoMailboxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailboxes.h; sourceTree = "<group>"; };
+		0614C5DF1803146700069623 /* CkoMailMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailMan.h; sourceTree = "<group>"; };
+		0614C5E01803146700069623 /* CkoMailManProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailManProgress.h; sourceTree = "<group>"; };
+		0614C5E11803146700069623 /* CkoMessageSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMessageSet.h; sourceTree = "<group>"; };
+		0614C5E21803146700069623 /* CkoMht.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMht.h; sourceTree = "<group>"; };
+		0614C5E31803146700069623 /* CkoMime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMime.h; sourceTree = "<group>"; };
+		0614C5E41803146700069623 /* CkoNtlm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoNtlm.h; sourceTree = "<group>"; };
+		0614C5E51803146700069623 /* CkoOmaDrm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoOmaDrm.h; sourceTree = "<group>"; };
+		0614C5E61803146700069623 /* CkoPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPrivateKey.h; sourceTree = "<group>"; };
+		0614C5E71803146700069623 /* CkoProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoProgress.h; sourceTree = "<group>"; };
+		0614C5E81803146700069623 /* CkoPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPublicKey.h; sourceTree = "<group>"; };
+		0614C5E91803146700069623 /* CkoRsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoRsa.h; sourceTree = "<group>"; };
+		0614C5EA1803146700069623 /* CkoRss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoRss.h; sourceTree = "<group>"; };
+		0614C5EB1803146700069623 /* CkoSFtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtp.h; sourceTree = "<group>"; };
+		0614C5EC1803146700069623 /* CkoSFtpDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpDir.h; sourceTree = "<group>"; };
+		0614C5ED1803146700069623 /* CkoSFtpFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpFile.h; sourceTree = "<group>"; };
+		0614C5EE1803146700069623 /* CkoSFtpProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpProgress.h; sourceTree = "<group>"; };
+		0614C5EF1803146700069623 /* CkoSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSocket.h; sourceTree = "<group>"; };
+		0614C5F01803146700069623 /* CkoSocketProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSocketProgress.h; sourceTree = "<group>"; };
+		0614C5F11803146700069623 /* CkoSocksProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSocksProxy.h; sourceTree = "<group>"; };
+		0614C5F21803146700069623 /* CkoSpider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSpider.h; sourceTree = "<group>"; };
+		0614C5F31803146700069623 /* CkoSsh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSsh.h; sourceTree = "<group>"; };
+		0614C5F41803146700069623 /* CkoSshKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSshKey.h; sourceTree = "<group>"; };
+		0614C5F51803146700069623 /* CkoSshProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSshProgress.h; sourceTree = "<group>"; };
+		0614C5F61803146700069623 /* CkoSshTunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSshTunnel.h; sourceTree = "<group>"; };
+		0614C5F71803146700069623 /* CkoStringArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoStringArray.h; sourceTree = "<group>"; };
+		0614C5F81803146700069623 /* CkoTar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTar.h; sourceTree = "<group>"; };
+		0614C5F91803146700069623 /* CkoTarProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTarProgress.h; sourceTree = "<group>"; };
+		0614C5FA1803146700069623 /* CkoUnixCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoUnixCompress.h; sourceTree = "<group>"; };
+		0614C5FB1803146700069623 /* CkoUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoUpload.h; sourceTree = "<group>"; };
+		0614C5FC1803146700069623 /* CkoXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXml.h; sourceTree = "<group>"; };
+		0614C5FD1803146700069623 /* CkoXmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXmp.h; sourceTree = "<group>"; };
+		0614C5FE1803146700069623 /* CkoZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZip.h; sourceTree = "<group>"; };
+		0614C5FF1803146700069623 /* CkoZipCrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipCrc.h; sourceTree = "<group>"; };
+		0614C6001803146700069623 /* CkoZipEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipEntry.h; sourceTree = "<group>"; };
+		0614C6011803146700069623 /* CkoZipProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipProgress.h; sourceTree = "<group>"; };
+		0614C6021803146700069623 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		0614C6041803146700069623 /* libchilkatCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libchilkatCocoa.a; sourceTree = "<group>"; };
+		0614C6051803146700069623 /* libchilkatCocoaDyn.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libchilkatCocoaDyn.dylib; sourceTree = "<group>"; };
+		0614C6061803146700069623 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0614C6071803146700069623 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0614C6091803146700069623 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0614C60A1803146700069623 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0614C60B1803146700069623 /* empty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = empty.cpp; sourceTree = "<group>"; };
+		0614C60C1803146700069623 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
+		0614C60E1803146700069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0614C6101803146700069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0614C6121803146700069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0614C6131803146700069623 /* Encrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypter.h; sourceTree = "<group>"; };
+		0614C6141803146700069623 /* Encrypter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Encrypter.mm; sourceTree = "<group>"; };
+		0614C6151803146700069623 /* Encryption-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Encryption-Info.plist"; sourceTree = "<group>"; };
+		0614C6161803146700069623 /* Encryption-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Encryption-Prefix.pch"; sourceTree = "<group>"; };
+		0614C6171803146700069623 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0614C6181803146700069623 /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		0614C6191803146700069623 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0614C53A1803054000069623 /* Cocoa.framework in Frameworks */,
-				0614C5AA180307E700069623 /* libchilkatCocoa.a in Frameworks */,
-				0614C5AB180307E700069623 /* libchilkatCocoaDyn.dylib in Frameworks */,
+				0614C61D1803146700069623 /* libchilkatCocoa.a in Frameworks */,
+				0614C61E1803146700069623 /* libchilkatCocoaDyn.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +140,7 @@
 		0614C52D1803054000069623 = {
 			isa = PBXGroup;
 			children = (
-				0614C53F1803054000069623 /* del */,
+				0614C5B81803146700069623 /* Encryption */,
 				0614C5381803054000069623 /* Frameworks */,
 				0614C5371803054000069623 /* Products */,
 			);
@@ -172,146 +173,138 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		0614C53F1803054000069623 /* del */ = {
+		0614C5B81803146700069623 /* Encryption */ = {
 			isa = PBXGroup;
 			children = (
-				0614C559180307E700069623 /* Chilkat-9.4.1-Cocoa-10.6 */,
-				0614C54B1803054000069623 /* AppDelegate.h */,
-				0614C54C1803054000069623 /* AppDelegate.m */,
-				0614C54E1803054000069623 /* MainMenu.xib */,
-				0614C556180305CD00069623 /* MyWindow.h */,
-				0614C557180305CD00069623 /* MyWindow.m */,
-				0614C5AF180307FA00069623 /* Encrypter.h */,
-				0614C5B0180307FA00069623 /* Encrypter.mm */,
-				0614C5B218030C6800069623 /* empty.cpp */,
-				0614C5B318030C6800069623 /* empty.h */,
-				0614C5401803054000069623 /* Supporting Files */,
+				0614C5B91803146700069623 /* AppDelegate.h */,
+				0614C5BA1803146700069623 /* AppDelegate.m */,
+				0614C5BB1803146700069623 /* Chilkat-9.4.1-Cocoa-10.6 */,
+				0614C60A1803146700069623 /* Constants.h */,
+				0614C60B1803146700069623 /* empty.cpp */,
+				0614C60C1803146700069623 /* empty.h */,
+				0614C60D1803146700069623 /* Credits.rtf */,
+				0614C60F1803146700069623 /* InfoPlist.strings */,
+				0614C6111803146700069623 /* MainMenu.xib */,
+				0614C6131803146700069623 /* Encrypter.h */,
+				0614C6141803146700069623 /* Encrypter.mm */,
+				0614C6151803146700069623 /* Encryption-Info.plist */,
+				0614C6161803146700069623 /* Encryption-Prefix.pch */,
+				0614C6171803146700069623 /* main.m */,
+				0614C6181803146700069623 /* MyWindow.h */,
+				0614C6191803146700069623 /* MyWindow.m */,
 			);
-			path = del;
+			path = Encryption;
 			sourceTree = "<group>";
 		};
-		0614C5401803054000069623 /* Supporting Files */ = {
+		0614C5BB1803146700069623 /* Chilkat-9.4.1-Cocoa-10.6 */ = {
 			isa = PBXGroup;
 			children = (
-				0614C5411803054000069623 /* Encryption-Info.plist */,
-				0614C5421803054000069623 /* InfoPlist.strings */,
-				0614C5451803054000069623 /* main.m */,
-				0614C5471803054000069623 /* Encryption-Prefix.pch */,
-				0614C5481803054000069623 /* Credits.rtf */,
-				0614C5B518030CCA00069623 /* Constants.h */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0614C559180307E700069623 /* Chilkat-9.4.1-Cocoa-10.6 */ = {
-			isa = PBXGroup;
-			children = (
-				0614C55A180307E700069623 /* doc */,
-				0614C55C180307E700069623 /* include */,
-				0614C5A0180307E700069623 /* INSTALL */,
-				0614C5A1180307E700069623 /* lib */,
-				0614C5A4180307E700069623 /* LICENSE */,
-				0614C5A5180307E700069623 /* README */,
-				0614C5A6180307E700069623 /* samples */,
+				0614C5BC1803146700069623 /* doc */,
+				0614C5BE1803146700069623 /* include */,
+				0614C6021803146700069623 /* INSTALL */,
+				0614C6031803146700069623 /* lib */,
+				0614C6061803146700069623 /* LICENSE */,
+				0614C6071803146700069623 /* README */,
+				0614C6081803146700069623 /* samples */,
 			);
 			path = "Chilkat-9.4.1-Cocoa-10.6";
 			sourceTree = "<group>";
 		};
-		0614C55A180307E700069623 /* doc */ = {
+		0614C5BC1803146700069623 /* doc */ = {
 			isa = PBXGroup;
 			children = (
-				0614C55B180307E700069623 /* README */,
+				0614C5BD1803146700069623 /* README */,
 			);
 			path = doc;
 			sourceTree = "<group>";
 		};
-		0614C55C180307E700069623 /* include */ = {
+		0614C5BE1803146700069623 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				0614C55D180307E700069623 /* CkoAtom.h */,
-				0614C55E180307E700069623 /* CkoBounce.h */,
-				0614C55F180307E700069623 /* CkoBz2.h */,
-				0614C560180307E700069623 /* CkoCache.h */,
-				0614C561180307E700069623 /* CkoCert.h */,
-				0614C562180307E700069623 /* CkoCertStore.h */,
-				0614C563180307E700069623 /* CkoCgi.h */,
-				0614C564180307E700069623 /* CkoCharset.h */,
-				0614C565180307E700069623 /* CkoCompression.h */,
-				0614C566180307E700069623 /* CkoCrypt2.h */,
-				0614C567180307E700069623 /* CkoCsv.h */,
-				0614C568180307E700069623 /* CkoDateTime.h */,
-				0614C569180307E700069623 /* CkoDh.h */,
-				0614C56A180307E700069623 /* CkoDirTree.h */,
-				0614C56B180307E700069623 /* CkoDkim.h */,
-				0614C56C180307E700069623 /* CkoDsa.h */,
-				0614C56D180307E700069623 /* CkoDtObj.h */,
-				0614C56E180307E700069623 /* CkoEmail.h */,
-				0614C56F180307E700069623 /* CkoEmailBundle.h */,
-				0614C570180307E700069623 /* CkoFileAccess.h */,
-				0614C571180307E700069623 /* CkoFtp2.h */,
-				0614C572180307E700069623 /* CkoFtp2Progress.h */,
-				0614C573180307E700069623 /* CkoGzip.h */,
-				0614C574180307E700069623 /* CkoHtmlToText.h */,
-				0614C575180307E700069623 /* CkoHtmlToXml.h */,
-				0614C576180307E700069623 /* CkoHttp.h */,
-				0614C577180307E700069623 /* CkoHttpProgress.h */,
-				0614C578180307E700069623 /* CkoHttpRequest.h */,
-				0614C579180307E700069623 /* CkoHttpResponse.h */,
-				0614C57A180307E700069623 /* CkoImap.h */,
-				0614C57B180307E700069623 /* CkoImapProgress.h */,
-				0614C57C180307E700069623 /* CkoMailboxes.h */,
-				0614C57D180307E700069623 /* CkoMailMan.h */,
-				0614C57E180307E700069623 /* CkoMailManProgress.h */,
-				0614C57F180307E700069623 /* CkoMessageSet.h */,
-				0614C580180307E700069623 /* CkoMht.h */,
-				0614C581180307E700069623 /* CkoMime.h */,
-				0614C582180307E700069623 /* CkoNtlm.h */,
-				0614C583180307E700069623 /* CkoOmaDrm.h */,
-				0614C584180307E700069623 /* CkoPrivateKey.h */,
-				0614C585180307E700069623 /* CkoProgress.h */,
-				0614C586180307E700069623 /* CkoPublicKey.h */,
-				0614C587180307E700069623 /* CkoRsa.h */,
-				0614C588180307E700069623 /* CkoRss.h */,
-				0614C589180307E700069623 /* CkoSFtp.h */,
-				0614C58A180307E700069623 /* CkoSFtpDir.h */,
-				0614C58B180307E700069623 /* CkoSFtpFile.h */,
-				0614C58C180307E700069623 /* CkoSFtpProgress.h */,
-				0614C58D180307E700069623 /* CkoSocket.h */,
-				0614C58E180307E700069623 /* CkoSocketProgress.h */,
-				0614C58F180307E700069623 /* CkoSocksProxy.h */,
-				0614C590180307E700069623 /* CkoSpider.h */,
-				0614C591180307E700069623 /* CkoSsh.h */,
-				0614C592180307E700069623 /* CkoSshKey.h */,
-				0614C593180307E700069623 /* CkoSshProgress.h */,
-				0614C594180307E700069623 /* CkoSshTunnel.h */,
-				0614C595180307E700069623 /* CkoStringArray.h */,
-				0614C596180307E700069623 /* CkoTar.h */,
-				0614C597180307E700069623 /* CkoTarProgress.h */,
-				0614C598180307E700069623 /* CkoUnixCompress.h */,
-				0614C599180307E700069623 /* CkoUpload.h */,
-				0614C59A180307E700069623 /* CkoXml.h */,
-				0614C59B180307E700069623 /* CkoXmp.h */,
-				0614C59C180307E700069623 /* CkoZip.h */,
-				0614C59D180307E700069623 /* CkoZipCrc.h */,
-				0614C59E180307E700069623 /* CkoZipEntry.h */,
-				0614C59F180307E700069623 /* CkoZipProgress.h */,
+				0614C5BF1803146700069623 /* CkoAtom.h */,
+				0614C5C01803146700069623 /* CkoBounce.h */,
+				0614C5C11803146700069623 /* CkoBz2.h */,
+				0614C5C21803146700069623 /* CkoCache.h */,
+				0614C5C31803146700069623 /* CkoCert.h */,
+				0614C5C41803146700069623 /* CkoCertStore.h */,
+				0614C5C51803146700069623 /* CkoCgi.h */,
+				0614C5C61803146700069623 /* CkoCharset.h */,
+				0614C5C71803146700069623 /* CkoCompression.h */,
+				0614C5C81803146700069623 /* CkoCrypt2.h */,
+				0614C5C91803146700069623 /* CkoCsv.h */,
+				0614C5CA1803146700069623 /* CkoDateTime.h */,
+				0614C5CB1803146700069623 /* CkoDh.h */,
+				0614C5CC1803146700069623 /* CkoDirTree.h */,
+				0614C5CD1803146700069623 /* CkoDkim.h */,
+				0614C5CE1803146700069623 /* CkoDsa.h */,
+				0614C5CF1803146700069623 /* CkoDtObj.h */,
+				0614C5D01803146700069623 /* CkoEmail.h */,
+				0614C5D11803146700069623 /* CkoEmailBundle.h */,
+				0614C5D21803146700069623 /* CkoFileAccess.h */,
+				0614C5D31803146700069623 /* CkoFtp2.h */,
+				0614C5D41803146700069623 /* CkoFtp2Progress.h */,
+				0614C5D51803146700069623 /* CkoGzip.h */,
+				0614C5D61803146700069623 /* CkoHtmlToText.h */,
+				0614C5D71803146700069623 /* CkoHtmlToXml.h */,
+				0614C5D81803146700069623 /* CkoHttp.h */,
+				0614C5D91803146700069623 /* CkoHttpProgress.h */,
+				0614C5DA1803146700069623 /* CkoHttpRequest.h */,
+				0614C5DB1803146700069623 /* CkoHttpResponse.h */,
+				0614C5DC1803146700069623 /* CkoImap.h */,
+				0614C5DD1803146700069623 /* CkoImapProgress.h */,
+				0614C5DE1803146700069623 /* CkoMailboxes.h */,
+				0614C5DF1803146700069623 /* CkoMailMan.h */,
+				0614C5E01803146700069623 /* CkoMailManProgress.h */,
+				0614C5E11803146700069623 /* CkoMessageSet.h */,
+				0614C5E21803146700069623 /* CkoMht.h */,
+				0614C5E31803146700069623 /* CkoMime.h */,
+				0614C5E41803146700069623 /* CkoNtlm.h */,
+				0614C5E51803146700069623 /* CkoOmaDrm.h */,
+				0614C5E61803146700069623 /* CkoPrivateKey.h */,
+				0614C5E71803146700069623 /* CkoProgress.h */,
+				0614C5E81803146700069623 /* CkoPublicKey.h */,
+				0614C5E91803146700069623 /* CkoRsa.h */,
+				0614C5EA1803146700069623 /* CkoRss.h */,
+				0614C5EB1803146700069623 /* CkoSFtp.h */,
+				0614C5EC1803146700069623 /* CkoSFtpDir.h */,
+				0614C5ED1803146700069623 /* CkoSFtpFile.h */,
+				0614C5EE1803146700069623 /* CkoSFtpProgress.h */,
+				0614C5EF1803146700069623 /* CkoSocket.h */,
+				0614C5F01803146700069623 /* CkoSocketProgress.h */,
+				0614C5F11803146700069623 /* CkoSocksProxy.h */,
+				0614C5F21803146700069623 /* CkoSpider.h */,
+				0614C5F31803146700069623 /* CkoSsh.h */,
+				0614C5F41803146700069623 /* CkoSshKey.h */,
+				0614C5F51803146700069623 /* CkoSshProgress.h */,
+				0614C5F61803146700069623 /* CkoSshTunnel.h */,
+				0614C5F71803146700069623 /* CkoStringArray.h */,
+				0614C5F81803146700069623 /* CkoTar.h */,
+				0614C5F91803146700069623 /* CkoTarProgress.h */,
+				0614C5FA1803146700069623 /* CkoUnixCompress.h */,
+				0614C5FB1803146700069623 /* CkoUpload.h */,
+				0614C5FC1803146700069623 /* CkoXml.h */,
+				0614C5FD1803146700069623 /* CkoXmp.h */,
+				0614C5FE1803146700069623 /* CkoZip.h */,
+				0614C5FF1803146700069623 /* CkoZipCrc.h */,
+				0614C6001803146700069623 /* CkoZipEntry.h */,
+				0614C6011803146700069623 /* CkoZipProgress.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		0614C5A1180307E700069623 /* lib */ = {
+		0614C6031803146700069623 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				0614C5A2180307E700069623 /* libchilkatCocoa.a */,
-				0614C5A3180307E700069623 /* libchilkatCocoaDyn.dylib */,
+				0614C6041803146700069623 /* libchilkatCocoa.a */,
+				0614C6051803146700069623 /* libchilkatCocoaDyn.dylib */,
 			);
 			path = lib;
 			sourceTree = "<group>";
 		};
-		0614C5A6180307E700069623 /* samples */ = {
+		0614C6081803146700069623 /* samples */ = {
 			isa = PBXGroup;
 			children = (
-				0614C5A7180307E700069623 /* README */,
+				0614C6091803146700069623 /* README */,
 			);
 			path = samples;
 			sourceTree = "<group>";
@@ -367,14 +360,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0614C5441803054000069623 /* InfoPlist.strings in Resources */,
-				0614C54A1803054000069623 /* Credits.rtf in Resources */,
-				0614C5501803054000069623 /* MainMenu.xib in Resources */,
-				0614C5A8180307E700069623 /* README in Resources */,
-				0614C5A9180307E700069623 /* INSTALL in Resources */,
-				0614C5AC180307E700069623 /* LICENSE in Resources */,
-				0614C5AD180307E700069623 /* README in Resources */,
-				0614C5AE180307E700069623 /* README in Resources */,
+				0614C61B1803146700069623 /* README in Resources */,
+				0614C61C1803146700069623 /* INSTALL in Resources */,
+				0614C61F1803146700069623 /* LICENSE in Resources */,
+				0614C6201803146700069623 /* README in Resources */,
+				0614C6211803146700069623 /* README in Resources */,
+				0614C6231803146700069623 /* Credits.rtf in Resources */,
+				0614C6241803146700069623 /* InfoPlist.strings in Resources */,
+				0614C6251803146700069623 /* MainMenu.xib in Resources */,
+				0614C6271803146700069623 /* Encryption-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,37 +379,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0614C5461803054000069623 /* main.m in Sources */,
-				0614C54D1803054000069623 /* AppDelegate.m in Sources */,
-				0614C558180305CD00069623 /* MyWindow.m in Sources */,
-				0614C5B1180307FA00069623 /* Encrypter.mm in Sources */,
-				0614C5B418030C6800069623 /* empty.cpp in Sources */,
+				0614C61A1803146700069623 /* AppDelegate.m in Sources */,
+				0614C6221803146700069623 /* empty.cpp in Sources */,
+				0614C6261803146700069623 /* Encrypter.mm in Sources */,
+				0614C6281803146700069623 /* main.m in Sources */,
+				0614C6291803146700069623 /* MyWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0614C5421803054000069623 /* InfoPlist.strings */ = {
+		0614C60D1803146700069623 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0614C5431803054000069623 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0614C5481803054000069623 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0614C5491803054000069623 /* en */,
+				0614C60E1803146700069623 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		0614C54E1803054000069623 /* MainMenu.xib */ = {
+		0614C60F1803146700069623 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0614C54F1803054000069623 /* en */,
+				0614C6101803146700069623 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0614C6111803146700069623 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0614C6121803146700069623 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -487,12 +481,13 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "del/Encryption-Prefix.pch";
-				INFOPLIST_FILE = "del/Encryption-Info.plist";
+				GCC_PREFIX_HEADER = "Encryption/Encryption-Prefix.pch";
+				INFOPLIST_FILE = "Encryption/Encryption-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/del/Chilkat-9.4.1-Cocoa-10.6/lib\"",
+					"\"$(SRCROOT)/Encryption/Chilkat-9.4.1-Cocoa-10.6/lib\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = Encryption;
 				WRAPPER_EXTENSION = app;
 			};
@@ -503,12 +498,13 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "del/Encryption-Prefix.pch";
-				INFOPLIST_FILE = "del/Encryption-Info.plist";
+				GCC_PREFIX_HEADER = "Encryption/Encryption-Prefix.pch";
+				INFOPLIST_FILE = "Encryption/Encryption-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/del/Chilkat-9.4.1-Cocoa-10.6/lib\"",
+					"\"$(SRCROOT)/Encryption/Chilkat-9.4.1-Cocoa-10.6/lib\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = Encryption;
 				WRAPPER_EXTENSION = app;
 			};
@@ -533,6 +529,7 @@
 				0614C5551803054000069623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
