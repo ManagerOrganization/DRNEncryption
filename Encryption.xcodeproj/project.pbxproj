@@ -106,7 +106,6 @@
 		0614C6091803146700069623 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		0614C60A1803146700069623 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		0614C60B1803146700069623 /* empty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = empty.cpp; sourceTree = "<group>"; };
-		0614C60C1803146700069623 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
 		0614C60E1803146700069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0614C6101803146700069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0614C6121803146700069623 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -177,7 +176,6 @@
 				0614C5BB1803146700069623 /* Chilkat-9.4.1-Cocoa-10.6 */,
 				0614C60A1803146700069623 /* Constants.h */,
 				0614C60B1803146700069623 /* empty.cpp */,
-				0614C60C1803146700069623 /* empty.h */,
 				0614C60D1803146700069623 /* Credits.rtf */,
 				0614C60F1803146700069623 /* InfoPlist.strings */,
 				0614C6111803146700069623 /* MainMenu.xib */,
