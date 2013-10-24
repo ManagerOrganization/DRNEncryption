@@ -20,7 +20,21 @@
 		0614C6261803146700069623 /* Encrypter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0614C6141803146700069623 /* Encrypter.mm */; };
 		0614C6281803146700069623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614C6171803146700069623 /* main.m */; };
 		0614C6291803146700069623 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614C6191803146700069623 /* MyWindow.m */; };
+		06A1DBB61818798800283A40 /* libchilkatCocoaDyn.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0614C6051803146700069623 /* libchilkatCocoaDyn.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06A1DBB51818796F00283A40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				06A1DBB61818798800283A40 /* libchilkatCocoaDyn.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0614C5361803054000069623 /* Encryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -289,8 +303,8 @@
 		0614C6031803146700069623 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				0614C6041803146700069623 /* libchilkatCocoa.a */,
 				0614C6051803146700069623 /* libchilkatCocoaDyn.dylib */,
+				0614C6041803146700069623 /* libchilkatCocoa.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -313,6 +327,7 @@
 				0614C5321803054000069623 /* Sources */,
 				0614C5331803054000069623 /* Frameworks */,
 				0614C5341803054000069623 /* Resources */,
+				06A1DBB51818796F00283A40 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -469,6 +484,7 @@
 		0614C5541803054000069623 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Encryption/Encryption-Prefix.pch";
@@ -479,6 +495,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = Encryption;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -486,6 +503,8 @@
 		0614C5551803054000069623 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Encryption/Encryption-Prefix.pch";
@@ -495,7 +514,9 @@
 					"\"$(SRCROOT)/Encryption/Chilkat-9.4.1-Cocoa-10.6/lib\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Encryption;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
