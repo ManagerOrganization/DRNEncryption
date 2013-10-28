@@ -17,7 +17,7 @@
     [panel setCanChooseFiles:YES];
     [panel setCanChooseDirectories:NO];
     [panel setAllowsMultipleSelection:NO];
-    a
+    
     NSInteger clicked = [panel runModal];
     
     if (clicked == NSFileHandlingPanelOKButton) {
