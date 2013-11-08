@@ -150,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				0614C5B81803146700069623 /* Encryption */,
-				0614C5381803054000069623 /* Frameworks */,
 				0614C5371803054000069623 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,6 +169,7 @@
 				0614C53B1803054000069623 /* Other Frameworks */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0614C53B1803054000069623 /* Other Frameworks */ = {
@@ -200,6 +200,7 @@
 				0614C6171803146700069623 /* main.m */,
 				0614C6181803146700069623 /* MyWindow.h */,
 				0614C6191803146700069623 /* MyWindow.m */,
+				0614C5381803054000069623 /* Frameworks */,
 			);
 			path = Encryption;
 			sourceTree = "<group>";
@@ -495,7 +496,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = Encryption;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -516,7 +517,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Encryption;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
