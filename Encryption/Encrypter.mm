@@ -7,76 +7,106 @@
 //
 
 #import "Encrypter.h"
-#import "CkoCrypt2.h"
+#import <CommonCrypto/CommonCryptor.h>
+#import "NSString+NSStringAdditions.h"
 
 @implementation Encrypter
 
-+(NSData*)encryptData:(NSData*)data key:(NSString *)key initVec:(NSString *)initVec {
-    NSLog(@"Encrypt");
++(NSData*)newEncryptData:(NSData*)data key:(NSString*)key initVec:(NSString*)initVec {
+    const void *vKey =  [[NSString base64DataFromString:key] bytes];
+    const void * vInitVec = [[NSString base64DataFromString:initVec] bytes];
     
-    NSMutableString *strOutput = [NSMutableString stringWithCapacity:1000];
+    //    NSData* data = [plaintext dataUsingEncoding:NSUTF8StringEncoding];
+    size_t dataLength = [data length];
+    int diff = kCCKeySize3DES - (dataLength % kCCKeySize3DES);
+    size_t newSize = 0;
     
-    CkoCrypt2 *crypt = [[CkoCrypt2 alloc] init];
-    
-    BOOL success;
-    success = [crypt UnlockComponent: @"JAMESDCrypt_pK4AHbGrZRnG"];
-    if (success != YES) {
-        [strOutput appendString: crypt.LastErrorText];
-        [strOutput appendString: @"\n"];
-        //        return strOutput;
+    if(diff > 0)
+    {
+        newSize = dataLength + diff;
     }
     
-    //  Specify 3DES for the encryption algorithm:
-    crypt.CryptAlgorithm = @"3des";
+    char dataPtr[newSize];
+    memcpy(dataPtr, [data bytes], [data length]);
+    //    DLog(@"%@", [NSData dataWithBytes:dataPtr length:sizeof(dataPtr)]);
+    for(int i = 0; i < diff; i++)
+    {
+        dataPtr[i + dataLength] = 0x00;
+    }
+    //    DLog(@"%@", [NSData dataWithBytes:dataPtr length:sizeof(dataPtr)]);
+    size_t bufferSize = newSize + kCCBlockSize3DES;
+    void *buffer = malloc(bufferSize);
     
-    //  CipherMode may be "ecb" or "cbc"
-    crypt.CipherMode = @"cbc";
     
-    //  KeyLength must be 192.  3DES is technically 168-bits;
-    //  the most-significant bit of each key byte is a parity bit,
-    //  so we must indicate a KeyLength of 192, which includes
-    //  the parity bits.
-    crypt.KeyLength = [NSNumber numberWithInt:192];
+    size_t numBytesEncrypted = 0;
+    CCCryptorStatus cryptStatus = CCCrypt(kCCEncrypt,
+                                          kCCAlgorithm3DES,
+                                          0x0000, //No padding
+                                          vKey,
+                                          kCCKeySize3DES,
+                                          vInitVec,
+                                          dataPtr,
+                                          sizeof(dataPtr),
+                                          buffer,
+                                          bufferSize,
+                                          &numBytesEncrypted);
     
-    //  The padding scheme determines the contents of the bytes
-    //  that are added to pad the result to a multiple of the
-    //  encryption algorithm's block size.  3DES has a block
-    //  size of 8 bytes, so encrypted output is always
-    //  a multiple of 8.
-    crypt.PaddingScheme = [NSNumber numberWithInt:3];
+    if(cryptStatus == kCCSuccess)
+    {
+        NSData* result = [NSData dataWithBytes:(const void*)buffer length:(NSUInteger)numBytesEncrypted];
+        return result;
+    }
     
-    //  EncodingMode specifies the encoding of the output for
-    //  encryption, and the input for decryption.
-    //  It may be "hex", "url", "base64", or "quoted-printable".
-    crypt.EncodingMode = @"base64";
-    
-    //  An initialization vector is required if using CBC or CFB modes.
-    //  ECB mode does not use an IV.
-    //  The length of the IV is equal to the algorithm's block size.
-    //  It is NOT equal to the length of the key.
-    [crypt SetEncodedIV: initVec encoding: @"base64"];
-    
-    //  The secret key must equal the size of the key.  For
-    //  3DES, the key must be 24 bytes (i.e. 192-bits).
-    [crypt SetEncodedKey: key encoding: @"base64"];
-    
-    //  Encrypt a string...
-    //  The input string is 44 ANSI characters (i.e. 44 bytes), so
-    //  the output should be 48 bytes (a multiple of 8).
-    //  Because the output is a hex string, it should
-    //  be 96 characters long (2 chars per byte).
-    //    NSLog(@"%@",crypt.LastErrorText);
-    
-    NSMutableData *encStr = [[NSMutableData alloc] initWithData:[crypt EncryptBytes:data]];
-    
-    //TODO: Remove the hardcoded encrypted string after purchasing library license.
-    //    encStr = @"X2igGNpj/MI2LhU8JtpRSw==";//Encryption string for password dls1974.k
-    //    encStr = @"X2igGNpj/MKzK5id73gcTA==";//Encryption string for password dls1974.j
-    //    [strOutput appendString: encStr];
-    //    [strOutput appendString: @"\n"];
-    //    NSLog(@"%@",[[NSString alloc] initWithData:encStr encoding:n]);
-    return encStr;
+    return nil;
+}
 
++(NSData*)newDecryptData:(NSData*)data key:(NSString *)key initVec:(NSString *)initVec{
+    const void *vKey =  [[NSString base64DataFromString:key] bytes];
+    const void * vInitVec = [[NSString base64DataFromString:initVec] bytes];
+    
+    //    NSData* data = [plaintext dataUsingEncoding:NSUTF8StringEncoding];
+    size_t dataLength = [data length];
+    int diff = kCCKeySize3DES - (dataLength % kCCKeySize3DES);
+    size_t newSize = 0;
+    
+    if(diff > 0)
+    {
+        newSize = dataLength + diff;
+    }
+    
+    char dataPtr[newSize];
+    memcpy(dataPtr, [data bytes], [data length]);
+    //    DLog(@"%@", [NSData dataWithBytes:dataPtr length:sizeof(dataPtr)]);
+    for(int i = 0; i < diff; i++)
+    {
+        dataPtr[i + dataLength] = 0x00;
+    }
+    //    DLog(@"%@", [NSData dataWithBytes:dataPtr length:sizeof(dataPtr)]);
+    size_t bufferSize = newSize + kCCBlockSize3DES;
+    void *buffer = malloc(bufferSize);
+    
+    
+    size_t numBytesEncrypted = 0;
+    CCCryptorStatus cryptStatus = CCCrypt(kCCDecrypt,
+                                          kCCAlgorithm3DES,
+                                          0x0000, //No padding
+                                          vKey,
+                                          kCCKeySize3DES,
+                                          vInitVec,
+                                          dataPtr,
+                                          sizeof(dataPtr),
+                                          buffer,
+                                          bufferSize,
+                                          &numBytesEncrypted);
+    
+    if(cryptStatus == kCCSuccess)
+    {
+        NSData* result = [NSData dataWithBytes:(const void*)buffer length:(NSUInteger)numBytesEncrypted];
+        return result;
+        //        return [NSString base64StringFromData:result length:(int)result.length];
+    }
+    
+    return nil;
 }
 
 @end

@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CommonCrypto/CommonCryptor.h>
 
 @interface Encrypter : NSObject
 
-+(NSData*)encryptData:(NSData*)data key:(NSString *)key initVec:(NSString *)initVec;
++(NSData*)newEncryptData:(NSData*)data key:(NSString*)key initVec:(NSString*)initVec;
++(NSData*)newDecryptData:(NSData*)data key:(NSString *)key initVec:(NSString *)initVec;
 
 @end
